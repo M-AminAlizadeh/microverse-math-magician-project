@@ -27,7 +27,7 @@
 
 # 📖 [Microvers Math Magician] <a name="about-project"></a>
 
-**[Microvers Math Magician]** this project is about how to build a
+**[Microvers Math Magician]** is about how to build a
 react app
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -37,14 +37,15 @@ react app
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href=""></a>React</li>
+    <li><a href=""></a>React Jsx</li>
+    <li><a href=""></a>Css</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="">Not yet</a></li>
+    <li>API</li>
   </ul>
 </details>
 
@@ -53,15 +54,16 @@ react app
 ### Key Features <a name="key-features"></a>
 
 - **[Just initial Config]**
+- **[Responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)
-- [Video](#)
+- [Live Demo](https://m-aminalizadeh.github.io/microverse-math-magician-project/) -->
+<!-- - [Video](#) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +76,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-Node -
+Node Js -
 IDE -
 Browser
 
@@ -83,11 +85,9 @@ Browser
 Clone this repository to your desired folder:
 
 ```sh
-  cd microverse-math-magician-project
   git clone https://github.com/M-AminAlizadeh/microverse-math-magician-project
+  cd microverse-math-magician-project
 ```
-
--
 
 ### Install
 
@@ -104,8 +104,6 @@ To run the project, execute the following command:
 ```sh
   npm start
 ```
-
--
 
 ### Run tests
 
@@ -124,14 +122,17 @@ To run tests, run the following command:
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/M-AminAlizadeh)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/AMINALI69393891)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/m-amin-alizadeh-60a20b1b0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
+- **Add functionality to the application**
+- **Link to the API**
 
 <!-- - [ ] **[Customize like button to red color when user hit it]** -->
 
