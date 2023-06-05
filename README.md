@@ -60,9 +60,9 @@ react app
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://m-aminalizadeh.github.io/microverse-math-magician-project/)
+- [Live Demo](https://m-aminalizadeh.github.io/microverse-math-magician-project/) -->
 <!-- - [Video](#) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,7 +104,6 @@ To run the project, execute the following command:
 ```sh
   npm start
 ```
-
 
 ### Run tests
 
