@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/microverse-math-magician-project/static/css/main.b1176b9b.css",
+    "main.js": "/microverse-math-magician-project/static/js/main.be88cb96.js",
+    "index.html": "/microverse-math-magician-project/index.html",
+    "main.b1176b9b.css.map": "/microverse-math-magician-project/static/css/main.b1176b9b.css.map",
+    "main.be88cb96.js.map": "/microverse-math-magician-project/static/js/main.be88cb96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1176b9b.css",
+    "static/js/main.be88cb96.js"
+  ]
+}
