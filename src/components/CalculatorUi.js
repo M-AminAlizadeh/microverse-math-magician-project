@@ -1,4 +1,5 @@
-import calculate from './logic/calculate';
+import Displayer from './Displayer';
+import Button from './Button';
 import { useState } from 'react';
 
 const CalculatorUi = () => {
@@ -8,153 +9,34 @@ const CalculatorUi = () => {
     operation: null,
   });
 
-  const handleInput = (e) => {
-    setObj(calculate(obj, e.target.innerText));
-  };
-
-  console.log(obj);
-
   return (
-    <>
-      <div className='calculator-container'>
-        <div className='calculator-display number'>
-          {obj.total === null ? 0 : obj.total}
-        </div>
-        <button
-          className='button bg-1 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          AC
-        </button>
-        <button
-          className='button bg-1 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          +/-
-        </button>
-        <button
-          className='button bg-1 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          %
-        </button>
-        <button
-          className='button bg-2 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          ÷
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          7
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          8
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          9
-        </button>
-        <button
-          className='button bg-2 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          x
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          4
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          5
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          6
-        </button>
-        <button
-          className='button bg-2 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          -
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          1
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          2
-        </button>
-        <button
-          className='button bg-1 number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          3
-        </button>
-        <button
-          className='button bg-2 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          +
-        </button>
-        <button
-          className='button bg-1 zero-btn number'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          0
-        </button>
-        <button
-          className='button bg-1 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          .
-        </button>
-        <button
-          className='button bg-2 operator'
-          onClick={(e) => {
-            handleInput(e);
-          }}>
-          =
-        </button>
-      </div>
-    </>
+    <div className='calculator-container'>
+      <Displayer obj={obj} />
+      <Button value='AC' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='+/-' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='%' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='÷' classList='button bg-2' setObj={setObj} obj={obj} />
+      <Button value='7' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='8' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='9' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='x' classList='button bg-2' setObj={setObj} obj={obj} />
+      <Button value='4' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='5' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='6' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='-' classList='button bg-2' setObj={setObj} obj={obj} />
+      <Button value='1' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='2' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='3' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='+' classList='button bg-2' setObj={setObj} obj={obj} />
+      <Button
+        value='0'
+        classList='button bg-1 zero-btn '
+        setObj={setObj}
+        obj={obj}
+      />
+      <Button value='.' classList='button bg-1' setObj={setObj} obj={obj} />
+      <Button value='=' classList='button bg-2' setObj={setObj} obj={obj} />
+    </div>
   );
 };
 
