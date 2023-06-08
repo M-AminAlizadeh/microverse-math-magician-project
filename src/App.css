@@ -77,7 +77,6 @@ body {
   background-color: #000;
   position: relative;
   user-select: none;
-  /* overflow-y: scroll; */
 }
 
 .quote-content {
