@@ -19,7 +19,6 @@ const Quote = () => {
       }
     );
     const response = await request.json();
-    // console.log(response.error);
     // Error
     if (response.error) {
       setLoading(false);
@@ -30,7 +29,6 @@ const Quote = () => {
       setError(false);
       setQuote(response[0]);
     }
-    // return response;
   };
 
   useEffect(() => {
