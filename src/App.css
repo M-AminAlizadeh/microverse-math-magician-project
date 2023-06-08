@@ -21,9 +21,6 @@ body {
 }
 
 .container {
-  /* border: 1px solid red; */
-  width: 40%;
-  margin: auto;
   margin-top: 10rem;
 }
 
@@ -86,9 +83,9 @@ body {
 .quote-content {
   /* border: 1px solid orange; */
   color: green;
-  width: 100%;
   font-family: 'Great Vibes', cursive;
   font-size: 25px;
+  width: 300px;
 }
 
 .quote-bottom-row {
@@ -111,7 +108,7 @@ body {
 .quote-author {
   /* border: 1px solid red; */
   color: red;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: capitalize;
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 6px;

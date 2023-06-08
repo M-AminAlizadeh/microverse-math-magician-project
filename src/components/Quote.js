@@ -1,18 +1,27 @@
+import { useEffect, useState } from 'react';
+
 const Quote = () => {
+  const [quote, setQuote] = useState({});
+  // Fetch data
+  useEffect(() => {
+    fetch('https://api.api-ninjas.com/v1/quotes?category=age', {
+      method: 'GET',
+      contentType: 'application/json',
+      headers: { 'X-Api-Key': 'cwd7G46iynGqOEQ1g+zBbw==5ezDbVZRFlCVb0uD' },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        setQuote(data[0]);
+      });
+  }, []);
+
   return (
     <div className='quote-container'>
-      <div className='quote-content'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </div>
+      <div className='quote-content'>{quote.quote}</div>
       <div className='quote-bottom-row'>
-        <button className='quote-category'>happiness</button>
-        <div className='quote-author'>Amin</div>
+        <button className='quote-category'>{quote.category}</button>
+        <div className='quote-author'>{quote.author}</div>
       </div>
     </div>
   );
