@@ -30,7 +30,7 @@ const CalculatorUi = () => {
       <Button value='+' classList='button bg-2' setObj={setObj} obj={obj} />
       <Button
         value='0'
-        classList='button bg-1 zero-btn '
+        classList='button bg-1 zero-btn'
         setObj={setObj}
         obj={obj}
       />
