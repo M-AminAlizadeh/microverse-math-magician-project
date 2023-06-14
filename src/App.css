@@ -298,3 +298,13 @@
   font-family: monospace;
   font-size: 40px;
 }
+
+/* Quote-page styling */
+.quote-page-content-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
