@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap");
 
 * {
   margin: 0;
@@ -13,12 +13,12 @@
   --fourth-color: #a3a3a3;
 }
 
-body {
+/* body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .container {
   margin-top: 10rem;
@@ -80,7 +80,7 @@ body {
 
 .quote-content {
   color: green;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 25px;
   width: 300px;
 }
@@ -105,7 +105,7 @@ body {
   color: red;
   font-size: 20px;
   text-transform: capitalize;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   letter-spacing: 6px;
   font-style: italic;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .lds-spinner div::after {
-  content: ' ';
+  content: " ";
   display: block;
   position: absolute;
   top: 3px;
@@ -218,4 +218,70 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Navbar styling */
+.navbar-container {
+  border: 1px solid red;
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: sans-serif;
+}
+
+.navbar-container {
+  color: green;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+.nav-links li a {
+  color: rgb(30, 255, 0);
+  cursor: pointer;
+  padding-bottom: 0.2rem;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  border-bottom: 1px solid orange;
+}
+
+/* Homepage styling */
+.home-page {
+  border: 1px solid orange;
+  height: 100vh;
+}
+
+.home-page-content {
+  width: 80%;
+  margin: 6rem auto;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-content h2 {
+  margin-bottom: 2rem;
+}
+
+.home-page-content p {
+  line-height: 1.3rem;
 }
