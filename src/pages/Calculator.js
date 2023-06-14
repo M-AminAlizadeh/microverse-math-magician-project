@@ -1,4 +1,4 @@
-/*eslint-disable */
+/* eslint-disable */
 import Navbar from "../components/Navbar";
 import CalculatorComponent from "../components/Calculator";
 
