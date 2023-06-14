@@ -6,7 +6,7 @@ import Quote from "./pages/Quote";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/microverse-math-magician-project">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
