@@ -18,6 +18,7 @@
 }
 
 /* Calculator style */
+
 /* .container {
   border: 1px solid red;
   width: 60%;
@@ -222,6 +223,7 @@
 /* Navbar styling */
 .navbar-container {
   background-color: #000;
+  color: green;
   position: absolute;
   width: 100%;
   top: 0;
@@ -231,10 +233,6 @@
   align-items: center;
   padding: 1rem 2rem;
   font-family: sans-serif;
-}
-
-.navbar-container {
-  color: green;
 }
 
 .nav-links {
