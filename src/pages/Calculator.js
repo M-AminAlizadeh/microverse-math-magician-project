@@ -1,11 +1,16 @@
+/*eslint-disable */
 import Navbar from "../components/Navbar";
+import CalculatorComponent from "../components/Calculator";
 
 const Calculator = () => {
   return (
-    <>
+    <div className="calculator-page-container">
       <Navbar />
-      Calculator page
-    </>
+      <div className="calculator-page-content-container">
+        <h2>Let's do some math!</h2>
+        <CalculatorComponent />
+      </div>
+    </div>
   );
 };
 
