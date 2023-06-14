@@ -1,4 +1,5 @@
-/* eslint-disable */
+import PropTypes from 'prop-types';
+
 const Displayer = ({ obj }) => {
   const show = (obj) => {
     let len = Object.keys(obj).length;
@@ -17,6 +18,10 @@ const Displayer = ({ obj }) => {
   };
 
   return <div className='calculator-display number'>{show(obj) || 0}</div>;
+};
+
+Displayer.propTypes = {
+  obj: PropTypes.object.isRequired,
 };
 
 export default Displayer;
