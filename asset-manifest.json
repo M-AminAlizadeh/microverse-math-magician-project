@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/microverse-math-magician-project/static/css/main.ad5b96f7.css",
-    "main.js": "/microverse-math-magician-project/static/js/main.bebc29d4.js",
-    "index.html": "/microverse-math-magician-project/index.html",
-    "main.ad5b96f7.css.map": "/microverse-math-magician-project/static/css/main.ad5b96f7.css.map",
-    "main.bebc29d4.js.map": "/microverse-math-magician-project/static/js/main.bebc29d4.js.map"
+    "main.css": "/static/css/main.df5c4e9e.css",
+    "main.js": "/static/js/main.a5a61671.js",
+    "index.html": "/index.html",
+    "main.df5c4e9e.css.map": "/static/css/main.df5c4e9e.css.map",
+    "main.a5a61671.js.map": "/static/js/main.a5a61671.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5b96f7.css",
-    "static/js/main.bebc29d4.js"
+    "static/css/main.df5c4e9e.css",
+    "static/js/main.a5a61671.js"
   ]
 }
