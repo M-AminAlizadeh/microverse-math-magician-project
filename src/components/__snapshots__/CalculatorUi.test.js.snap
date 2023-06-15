@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorUi renders correctly 1`] = `
+<div
+  className="calculator-container"
+>
+  <div
+    className="calculator-display number"
+  >
+    0
+  </div>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    AC
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    +/-
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    %
+  </button>
+  <button
+    className="button bg-2"
+    onClick={[Function]}
+  >
+    ÷
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    7
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    8
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    9
+  </button>
+  <button
+    className="button bg-2"
+    onClick={[Function]}
+  >
+    x
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    4
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    5
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    6
+  </button>
+  <button
+    className="button bg-2"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    1
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    2
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    3
+  </button>
+  <button
+    className="button bg-2"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    className="button bg-1 zero-btn"
+    onClick={[Function]}
+  >
+    0
+  </button>
+  <button
+    className="button bg-1"
+    onClick={[Function]}
+  >
+    .
+  </button>
+  <button
+    className="button bg-2"
+    onClick={[Function]}
+  >
+    =
+  </button>
+</div>
+`;
